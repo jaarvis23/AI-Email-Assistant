@@ -1,0 +1,71 @@
+/* App.css */
+
+/* Apply to entire page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #e0f7fa);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Container padding */
+.MuiContainer-root {
+  background-color: #ffffffcc;
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 32px;
+  margin-top: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.MuiTypography-h3 {
+  color: #2c3e50;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Buttons */
+.MuiButton-contained {
+  background-color: #0077cc;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-contained:hover {
+  background-color: #005fa3;
+}
+
+.MuiButton-outlined {
+  color: #0077cc;
+  border-color: #0077cc;
+  font-weight: 500;
+}
+
+.MuiButton-outlined:hover {
+  background-color: #e3f2fd;
+}
+
+/* TextField for generated reply */
+.MuiTextField-root textarea {
+  background-color: #f9f9f9;
+}
+
+/* Optional: make scrollbars prettier (for large text areas) */
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
